@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wrapper{
+	width:500px;
+	margin: 10px auto;
+	font-size: 14px;
+	background-color: #fff;
+	border:1px solid #f1f1f1;
+	padding:20px;
+}
+.comment-field-input{
+	display: inline-block;
+
+}
+.comment-field{
+	margin-bottom:40px;
+}
+.comment-field-name{
+	vertical-align: top;
+}
+textarea{
+	width:300px;
+	height:80px;
+}
+.comment-field-input >input{
+	width:300px;
+	height:30px;
+	margin-left: 20px;
+}
+.comment-field-button{
+	text-align: center;
+	margin-top:-20px;
+	margin-left:200px;
+}
+
+.comment p{
+	display: inline-block;
+	margin:0;
+}
+.comment-user{
+	display: inline-block;
+	color:pink;
+}
